@@ -28,7 +28,7 @@ Na podstawie sekwencji zdarzeń użytkownika w 5-minutowym oknie czasowym:
 python generator.py
 ```
 
-2. Otwórz notebook `customer_segmentation.ipynb` i uruchom go krok po kroku w JupyterLab.
+2. Otwórz `customer_segmentation.ipynb` i uruchom kod w JupyterLab.
 
 ## Wymagania
 
@@ -36,27 +36,3 @@ python generator.py
 - Apache Spark
 - PySpark
 - Jupyter Notebook
-
-## Struktura projektu
-
-```
-.
-├── generator.py                 # Generator danych strumieniowych (JSON)
-├── customer_segmentation.ipynb # Notebook z analizą i segmentacją klientów
-└── README.md
-```
-
-## Przykładowy rekord wejściowy (JSON)
-
-```json
-{
-  "user_id": "u45",
-  "event_type": "purchase",
-  "timestamp": "2025-05-14T12:34:00Z",
-  "product_id": "p101",
-  "category": "electronics",
-  "price": 299.99
-}
-```
-
-
